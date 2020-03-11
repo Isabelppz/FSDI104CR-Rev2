@@ -20,7 +20,8 @@ class Character{
             console.log(opponent.energy);
 
             if(opponent.energy==0){
-            alert("GAME OVER "+this.name+" Wins");
+            console.log("GAME OVER! "+[this.name]+" Wins");
+            alert("GAME OVER! "+this.name+" Wins");
             document.location.reload();
             }
         }   
