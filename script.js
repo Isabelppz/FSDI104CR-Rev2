@@ -20,8 +20,8 @@ class Character{
             document.getElementById('console').innerHTML=`${this.name} is attacking with ${item.iname} <br>${item.image}`;
             console.log(opponent.energy);
 
-            if(energy=0);{
-            alert("GAME OVER "+[this.name]+" Wins");
+            if(opponent.energy==0){
+            alert("GAME OVER "+this.name+" Wins");
             document.location.reload();
             }
         }   
