@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Shaiya : Light and Darkness</title>
+</head>
+<body>
+    <header class="header">
+       <h4> </h4>
+       
+    </header>
+    <main class="txt">
+        <div class="wrap">
+            <div class="container">
+                <img src="img/c1.gif" alt="sun">
+                <button class="btn" onclick="c1.attack(c2, select())">Attack</button>
+                <p id="c1">
+                    The Goodess of Light wants to restore her power over her evil sister Etain.
+                </p>
+            </div>
+            <div id="console" class="console">
+                Actions...
+
+            </div>
+            <div class="container">
+                <img src="img/c2.gif" alt="moon">
+                <button class="btn" onclick="c2.attack(c1, select())">Attack</button>
+                <br>
+                <p id="c2">
+                    Etain wants to keep the power of her twin sister Raina and rule the world.
+                </p>
+        </div>
+    </main>
+    <audio src="media/audio.mp3" id="myaudio" loop="loop"></audio>
+    <script src="script.js">
+    </script>
+</body>
+<footer>
+    All the rights reserved 2020 &copy;
+</footer>
+</html>
