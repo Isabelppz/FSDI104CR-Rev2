@@ -1,4 +1,4 @@
-alert("ATTACK!!");
+alert("Have Rania restore her power from Etanie for the fate of the planet !!");
 window.onload=function(){
     document.getElementById("myaudio").play();
   }
@@ -7,7 +7,6 @@ class Character{
         this.name=name;
         this.energy=energy;
         this.id=id;
-
     }
         display = function(){
         document.getElementById(this.id).innerHTML=`<br> Energy: ${this.energy}`;
